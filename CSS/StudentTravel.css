@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subhead{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+img{
+    width: 225px;
+    height: 125px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.destinations{
+    margin-top: 50px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn{
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid pink;
+    border-radius: 50%;
+}
+
+.btn:hover{
+    font-size: 20px;
+    background: pink;
+}
+
+button{
+    background: orange;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 766px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+}
