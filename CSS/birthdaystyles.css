@@ -1,0 +1,145 @@
+* {
+ 	box-sizing: border-box;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+body {
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+ 	background-color: #000000;
+ 	color: #494949;
+ 	line-height: 1.6;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	min-height: 100vh;
+}
+
+.email-container {
+ 	background-color: #FFA75A;
+ 	border-radius: 16px;
+ 	box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+ 	max-width: 800px;
+ 	padding: 24px;
+ 	margin: 20px;
+}
+
+/* text css */
+.header {
+	text-align: center;
+    background: linear-gradient(90deg, #ffcce0, #fa8cb7);
+  	padding: 20px;
+  	border-radius: 12px;
+  	margin-bottom: 20px;
+}
+
+.header h1 {
+	font-size: 30px;
+  	color: #ffe3ee;
+}
+
+.header p {
+  	font-size: 16px;
+  	color: #494949;
+}
+
+.message {
+ 	text-align: left;
+ 	padding: 12px;
+}
+
+.message p {
+	text-indent: 30px;
+}
+
+.message h2 {
+	color: #ffe3ee;
+	margin-bottom: 10px;
+}
+
+/* gifs css */
+.sillies {
+  	display: flex;
+  	flex-wrap: wrap;
+  	gap: 20px;
+  	justify-content: center;
+  	margin: 20px 0;
+}
+
+.silly {
+ 	text-align: center;
+ 	flex: 1 1 200px;
+}
+
+.silly img {
+ 	width: 100%;
+	height: 75%;
+ 	max-width: 220px;
+ 	border-radius: 12px;
+ 	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+ 	transition: transform 0.3s;
+}
+
+.silly img:hover {
+  	transform: scale(1.05);
+}
+
+.silly figcaption {
+  	margin-top: 8px;
+  	font-size: 15px;
+  	color: #494949;
+}
+
+/* videos css */
+.media {
+  	margin-top: 20px;
+}
+
+.video-block {
+  	margin-bottom: 24px;
+}
+
+.video-block h3 {
+  	color: #ffe3ee;
+  	margin-bottom: 8px;
+  	text-align: center;
+}
+
+video {
+  	display: block;
+  	width: 100%;
+  	max-width: 640px;
+  	margin: 0 auto;
+  	border-radius: 10px;
+  	box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* footer */
+.footer {
+  	text-align: center;
+  	margin-top: 30px;
+  	font-style: italic;
+}
+
+.signature {
+  	color: #ffe3ee;
+  	font-weight: bold;
+  	font-size: 20px;
+}
+
+/* mobile adjust */
+@media (max-width: 600px) {
+ 	.header h1 {
+    	font-size: 20px;
+  	}
+
+  	video {
+    	width: 100%;
+    	height: auto;
+  	}
+
+  	.gifts {
+    	flex-direction: column;
+    	align-items: center;
+  	}
+}
